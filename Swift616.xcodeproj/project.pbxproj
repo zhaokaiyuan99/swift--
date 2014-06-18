@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB0BB59019502845003E78E2 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB0BB58F19502845003E78E2 /* Color.swift */; };
+		CB32D590194E896100AE9045 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32D58F194E896100AE9045 /* AppDelegate.swift */; };
+		CB32D599194E896200AE9045 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB32D598194E896200AE9045 /* Images.xcassets */; };
+		CB32D5A5194E896300AE9045 /* Swift616Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32D5A4194E896300AE9045 /* Swift616Tests.swift */; };
+		CB32D5B5194E90DE00AE9045 /* Datecalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB32D5B4194E90DE00AE9045 /* Datecalculate.swift */; };
+		CB5FD815194EB70C00247979 /* DateObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FD814194EB70C00247979 /* DateObject.swift */; };
+		CB5FD817194EBA2200247979 /* DayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB5FD816194EBA2200247979 /* DayCell.swift */; };
+		CB6B357F194EDDB00079C94A /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B357E194EDDB00079C94A /* CalendarCell.swift */; };
+		CB6B3581194FD4C60079C94A /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6B3580194FD4C60079C94A /* CalendarViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB32D59F194E896300AE9045 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB32D582194E896000AE9045 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB32D589194E896000AE9045;
+			remoteInfo = Swift616;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB0BB58F19502845003E78E2 /* Color.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		CB32D58A194E896000AE9045 /* Swift616.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift616.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB32D58E194E896000AE9045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB32D58F194E896100AE9045 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB32D598194E896200AE9045 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CB32D59E194E896300AE9045 /* Swift616Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Swift616Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB32D5A3194E896300AE9045 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB32D5A4194E896300AE9045 /* Swift616Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift616Tests.swift; sourceTree = "<group>"; };
+		CB32D5B4194E90DE00AE9045 /* Datecalculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datecalculate.swift; sourceTree = "<group>"; };
+		CB5FD814194EB70C00247979 /* DateObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateObject.swift; path = ../DateObject.swift; sourceTree = "<group>"; };
+		CB5FD816194EBA2200247979 /* DayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayCell.swift; sourceTree = "<group>"; };
+		CB6B357E194EDDB00079C94A /* CalendarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		CB6B3580194FD4C60079C94A /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB32D587194E896000AE9045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB32D59B194E896300AE9045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB32D581194E896000AE9045 = {
+			isa = PBXGroup;
+			children = (
+				CB32D58C194E896000AE9045 /* Swift616 */,
+				CB32D5A1194E896300AE9045 /* Swift616Tests */,
+				CB32D58B194E896000AE9045 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB32D58B194E896000AE9045 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB32D58A194E896000AE9045 /* Swift616.app */,
+				CB32D59E194E896300AE9045 /* Swift616Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB32D58C194E896000AE9045 /* Swift616 */ = {
+			isa = PBXGroup;
+			children = (
+				CB32D5B3194E90CD00AE9045 /* Calendar */,
+				CB32D58F194E896100AE9045 /* AppDelegate.swift */,
+				CB32D598194E896200AE9045 /* Images.xcassets */,
+				CB32D58D194E896000AE9045 /* Supporting Files */,
+			);
+			path = Swift616;
+			sourceTree = "<group>";
+		};
+		CB32D58D194E896000AE9045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB32D58E194E896000AE9045 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB32D5A1194E896300AE9045 /* Swift616Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CB32D5A4194E896300AE9045 /* Swift616Tests.swift */,
+				CB32D5A2194E896300AE9045 /* Supporting Files */,
+			);
+			path = Swift616Tests;
+			sourceTree = "<group>";
+		};
+		CB32D5A2194E896300AE9045 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CB32D5A3194E896300AE9045 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CB32D5B3194E90CD00AE9045 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				CB5FD814194EB70C00247979 /* DateObject.swift */,
+				CB32D5B4194E90DE00AE9045 /* Datecalculate.swift */,
+				CB5FD816194EBA2200247979 /* DayCell.swift */,
+				CB6B357E194EDDB00079C94A /* CalendarCell.swift */,
+				CB6B3580194FD4C60079C94A /* CalendarViewController.swift */,
+				CB0BB58F19502845003E78E2 /* Color.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB32D589194E896000AE9045 /* Swift616 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB32D5A8194E896300AE9045 /* Build configuration list for PBXNativeTarget "Swift616" */;
+			buildPhases = (
+				CB32D586194E896000AE9045 /* Sources */,
+				CB32D587194E896000AE9045 /* Frameworks */,
+				CB32D588194E896000AE9045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Swift616;
+			productName = Swift616;
+			productReference = CB32D58A194E896000AE9045 /* Swift616.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB32D59D194E896300AE9045 /* Swift616Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB32D5AB194E896300AE9045 /* Build configuration list for PBXNativeTarget "Swift616Tests" */;
+			buildPhases = (
+				CB32D59A194E896300AE9045 /* Sources */,
+				CB32D59B194E896300AE9045 /* Frameworks */,
+				CB32D59C194E896300AE9045 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB32D5A0194E896300AE9045 /* PBXTargetDependency */,
+			);
+			name = Swift616Tests;
+			productName = Swift616Tests;
+			productReference = CB32D59E194E896300AE9045 /* Swift616Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB32D582194E896000AE9045 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = SunSet;
+				TargetAttributes = {
+					CB32D589194E896000AE9045 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					CB32D59D194E896300AE9045 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = CB32D589194E896000AE9045;
+					};
+				};
+			};
+			buildConfigurationList = CB32D585194E896000AE9045 /* Build configuration list for PBXProject "Swift616" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB32D581194E896000AE9045;
+			productRefGroup = CB32D58B194E896000AE9045 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB32D589194E896000AE9045 /* Swift616 */,
+				CB32D59D194E896300AE9045 /* Swift616Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB32D588194E896000AE9045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB32D599194E896200AE9045 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB32D59C194E896300AE9045 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB32D586194E896000AE9045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB6B3581194FD4C60079C94A /* CalendarViewController.swift in Sources */,
+				CB32D590194E896100AE9045 /* AppDelegate.swift in Sources */,
+				CB0BB59019502845003E78E2 /* Color.swift in Sources */,
+				CB6B357F194EDDB00079C94A /* CalendarCell.swift in Sources */,
+				CB5FD815194EB70C00247979 /* DateObject.swift in Sources */,
+				CB32D5B5194E90DE00AE9045 /* Datecalculate.swift in Sources */,
+				CB5FD817194EBA2200247979 /* DayCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB32D59A194E896300AE9045 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB32D5A5194E896300AE9045 /* Swift616Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB32D5A0194E896300AE9045 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB32D589194E896000AE9045 /* Swift616 */;
+			targetProxy = CB32D59F194E896300AE9045 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CB32D5A6194E896300AE9045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB32D5A7194E896300AE9045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB32D5A9194E896300AE9045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Swift616/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CB32D5AA194E896300AE9045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Swift616/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CB32D5AC194E896300AE9045 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift616.app/Swift616";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Swift616Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		CB32D5AD194E896300AE9045 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Swift616.app/Swift616";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Swift616Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB32D585194E896000AE9045 /* Build configuration list for PBXProject "Swift616" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB32D5A6194E896300AE9045 /* Debug */,
+				CB32D5A7194E896300AE9045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB32D5A8194E896300AE9045 /* Build configuration list for PBXNativeTarget "Swift616" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB32D5A9194E896300AE9045 /* Debug */,
+				CB32D5AA194E896300AE9045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB32D5AB194E896300AE9045 /* Build configuration list for PBXNativeTarget "Swift616Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB32D5AC194E896300AE9045 /* Debug */,
+				CB32D5AD194E896300AE9045 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB32D582194E896000AE9045 /* Project object */;
+}
