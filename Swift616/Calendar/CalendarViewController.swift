@@ -119,7 +119,7 @@ class CalendarViewController : UIViewController, UITableViewDelegate, UITableVie
         var object  = self.dataArray!.objectAtIndex(indexPath.row) as DateObject
         var layer = Datecalculate.getLayer(object.year!, month: object.month!)
         var y = 70 + 44 * layer
-        return Float(y)
+        return CGFloat(y)
     }
 
 }

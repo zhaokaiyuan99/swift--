@@ -40,7 +40,7 @@ class CalendarCell: UIView ,DayCellDelegate{
             var numberX:Int = (i+startNumber) % 7;
             var numberY:Int =  (i+startNumber) / 7;
             var cell:DayCell = dayLabelArray!.objectAtIndex(i)as DayCell
-            cell.frame = CGRectMake(Float(numberX) * xOffset, 70 + Float(numberY) * yOffset, xOffset, yOffset)
+            cell.frame = CGRectMake(CGFloat(numberX) * xOffset, 70 + CGFloat(numberY) * yOffset, xOffset, yOffset)
             
             cell.delegate = self
             cell.month = self.month;
@@ -61,7 +61,7 @@ class CalendarCell: UIView ,DayCellDelegate{
         for (var i:Int = 0; i<32; i++) {
             var numberX:Int = (i+startNumber)%7;
             var numberY:Int =  (i+startNumber)/7;
-            var cell:DayCell = DayCell(frame: CGRectMake(Float(numberX)*xOffset, 70 +  Float(numberY) * yOffset, xOffset, yOffset))
+            var cell:DayCell = DayCell(frame: CGRectMake(CGFloat(numberX)*xOffset, 70 +  CGFloat(numberY) * yOffset, xOffset, yOffset))
             self.addSubview(cell);
             dayLabelArray!.addObject(cell)
             cell.setDay(i+1)
@@ -105,7 +105,7 @@ class CalendarCell: UIView ,DayCellDelegate{
         var  yOffset:CGFloat = 44.0
    
         for (var i:Int = 0 ; i<7; i++) {
-            var dayOfTheWeekLabel:UILabel = UILabel(frame: CGRectMake(xOffset*Float(i), yOffset, xOffset, 20))
+            var dayOfTheWeekLabel:UILabel = UILabel(frame: CGRectMake(xOffset*CGFloat(i), yOffset, xOffset, 20))
             dayOfTheWeekLabel.textColor = UIColor.blackColor()
             dayOfTheWeekLabel.textAlignment = NSTextAlignment.Center
             dayOfTheWeekLabel.backgroundColor = UIColor.clearColor()
